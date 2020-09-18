@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const app = express();
 const api = require("./api");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const app = express();
 
 const password = "czNWW1cIDYgu7Lfj";
 
